@@ -1,0 +1,18 @@
+.navbar-brand {
+    font-size: 64px;
+    font-family: 'Rubik', sans-serif;
+    color: white;
+}
+
+#card-colum {
+    background-color: #553564;
+    padding: 2%;
+    margin: 2%;
+    text-align: center;
+}
+
+.colum-title {
+    color: #BCDB51;
+    font-size: 25px;
+    font-weight: bold;
+}

@@ -1,0 +1,40 @@
+<nav class="navbar bg-body-tertiary">
+    <div class="container-fluid">
+        <a class="navbar-brand" href="#">CARDS</a>
+    </div>
+</nav>
+
+<div class="row" id="cards">
+    <div class="col" id="card-colum" cdkDropList #todoList="cdkDropList" [cdkDropListData]="todo" [cdkDropListConnectedTo]="[doneList]" (cdkDropListDropped)="drop($event)">
+        <div class="colum-title">
+            IDEAS
+        </div>
+        <div class="tasks-container">
+            <div class="task-">
+                this is something that i want to do
+            </div>
+        </div>
+
+    </div>
+    <div class="col" id="card-colum">
+        <div class="colum-title">
+            TO DO
+        </div>
+        <div class="tasks-container">
+            <div class="task-">
+                this is something that im doing
+            </div>
+        </div>
+    </div>
+    <div class="col" id="card-colum">
+        <div class="colum-title">
+            DONE
+        </div>
+        <div class="tasks-container">
+            <div class="task-">
+                this is something that i done
+            </div>
+        </div>
+    </div>
+
+</div>
